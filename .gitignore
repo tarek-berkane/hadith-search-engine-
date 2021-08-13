@@ -1,7 +1,6 @@
 __pycache__
 .idea/
-hadith_dir/*
-raw/data/*
-raw/raw data/*
+
+
 
 temp.py
