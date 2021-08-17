@@ -1,4 +1,6 @@
 import sys
+import asyncio
+
 
 if __name__ == '__main__':
     args = sys.argv.copy()
@@ -9,10 +11,14 @@ if __name__ == '__main__':
 
         build_result()
 
-    if args[1] == 'index':
-        from src.index import index_hadith_files
+    elif args[1] == 'index':
+        from src.engine.index import index_hadith_database
+        asyncio.run(index_hadith_database())
 
-        index_hadith_files()
+    elif args[1] == 'store':
+        from csv_to_db import store_data
+        asyncio.run(store_data())
+
 
 
 

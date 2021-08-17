@@ -4,3 +4,8 @@ __pycache__
 
 
 temp.py
+hadith.db
+hadith_dir/*
+raw/data/*
+raw/raw data/*
+myenv
