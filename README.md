@@ -87,6 +87,11 @@ hadith-search-engine-
 .       ├─ ...
 ```
 
+### store data in database
+```shell
+python3 main.py store
+```
+
 ### Index csv files
 
 `This will take more than 5 minutes`
