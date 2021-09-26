@@ -7,13 +7,13 @@ This project is a simple **hadith** search engine for the Prophet Muhammad (ﷺ)
 ### Download project
 
 ```shell
-git clone https://github.com/tarek-berkane/hadith-search-engine-.git
+git clone https://github.com/tarek-berkane/hadith-search-engine-whoosh.git
 ```
 
 result 
 
 ```
-hadith-search-engine-
+hadith-search-engine-whoosh
 ├─ hadith_dir/
 ├─ raw 
 |   ├─ data/ 
@@ -37,7 +37,7 @@ hadith-search-engine-
 ### setup envirment
 
 ```shell
-cd hadith-search-engine-
+cd hadith-search-engine-whoosh
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 extract folder and copy inner folders to `raw/raw data`
 
 ```
-hadith-search-engine-
+hadith-search-engine-whoosh
 ├─ ...
 ├─ raw 
 |   ├─ data/ 
@@ -73,7 +73,7 @@ python3 main.py build
 result
 
 ```
-hadith-search-engine-
+hadith-search-engine-whoosh
 ├─ ...
 ├─ raw 
 |   ├─ data/ 
